@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Opal Stays Kilimani - Booking Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f4f8;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #003580;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    .logo img {
+      height: 30px;
+    }
+
+    .nav-right {
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .hotel-id {
+      display: block;
+      font-size: 12px;
+      color: #cce0ff;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .property-status h1 {
+      font-size: 24px;
+      color: #003580;
+    }
+
+    .status-badge {
+      background-color: #d32f2f;
+      color: white;
+      font-size: 14px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      margin-left: 10px;
+    }
+
+    .alert-box {
+      background-color: #fff3f3;
+      border: 1px solid #e57373;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+
+    .alert-box h2 {
+      color: #d32f2f;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .alert-box .link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0071c2;
+      text-decoration: underline;
+    }
+
+    .reservations {
+      margin-top: 30px;
+      background: #ffffff;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+
+    .no-arrivals {
+      color: #757575;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Booking.com_logo.svg" alt="Booking.com Logo">
+    </div>
+    <div class="nav-right">
+      <span>Opal Stays Kilimani</span>
+      <span class="hotel-id">ID: 13517585</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="property-status">
+      <h1>Opal Stays Kilimani <span class="status-badge">Closed / Not bookable</span></h1>
+    </section>
+
+    <section class="alert-box">
+      <h2>⚠️ Non-refundable rates are still unavailable</h2>
+      <p>
+        Right now guests can only book your property if you set up flexible rates.
+        Once we finish verifying your property, you'll be able to set up non-refundable rates.
+      </p>
+      <a href="#" class="link">Add flexible rates now</a>
+    </section>
+
+    <section class="reservations">
+      <h3>Reservations - Today</h3>
+      <p class="no-arrivals">You have no arrivals for the selected day</p>
+    </section>
+  </main>
+</body>
+</html>
